@@ -1,3 +1,5 @@
+#---------------------------------------LOOPS AND ITERATIONIS--------------------------------
+
 nums = [1, 2, 3, 4, 5,]
 
 # for num in nums:
@@ -17,33 +19,31 @@ nums = [1, 2, 3, 4, 5,]
 # 		print('Found it!')
 # 		continue 
 # 	print(num)
-#----------------------------LOOPS IN LOOPS:  THE ELECTRIC JIGGALO---------------------
-#
-#
-#
+#----------------------------LOOPS IN LOOPS:  THE ELECTRIC JIGGALO-----------------------------
+
+
 # for num in nums:
 # 	for letter in'abc':
 # 		print(num, letter)
 
 #  This loops through every letter in the string, then moves on.  1a, 1b, 1c, 2a, 2b, 2c...
 
-#--------------------------RUNNING THROUGH A LOOP A CERTAIN # OF TIMES----------------------------
-# for i in range(1, 11): 
-# 	print(i)
+#--------------------------RUNNING THROUGH A LOOP A CERTAIN # OF TIMES--------------------------
+#for i in range(1, 11): 
+#	print(i)
 
- # This would start at 1, and go up to 10.
-# -------------------------------------WHILE LOOPS------------------------------------
+# This would start at 1, and go up to 10.
+# ------------------------------------------WHILE LOOPS-----------------------------------------
 
 x = 0
 
 #EXAMPLE 1:
-#
+
 # while x < 10:
 # 	print(x)
 # 	x += 1
-
 #  OUTPUT:  Counts to 9 from 0.
-#
+
 #EXAMPLE 2:
 
 # while x < 10:
@@ -51,14 +51,13 @@ x = 0
 # 		break
 # 	print(x)
 # 	x += 1
-
 #  OUTPUT:  Counts to 5, then breaks out.
-
-while True:
-	if x == 100099:
-		print("PlsStop.png")
-	if x == 10010000:
-		break
-	print(x)
-	x+=1
+# ---------------------------------------------------------------------------------------------------
+# while True:
+# 	if x == 100099:
+# 		print("PlsStop.png")
+# 	if x == 10010000:
+# 		break
+# 	print(x)
+# 	x+=1
 
