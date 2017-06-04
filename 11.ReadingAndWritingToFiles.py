@@ -131,7 +131,7 @@ print(os.getcwd()) #prints the current working diriectory to prove the above fun
 # 	f.seek(0)
 # 	f.write('R')
 
-# Writes "Rest Line 1" into the txt file.
+#Writes "Rest Line 1" into the txt file.
 
 #------------------------------READING AND WRITING TO FILES AT THE SAME TIME-------------------------------
 

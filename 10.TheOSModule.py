@@ -82,11 +82,11 @@ from datetime import datetime
 
 #  Starts from the top down.
 
-#for dirpath, dirnames, filenames in os.walk('C:\\Users\\Anon\\Desktop\\'):
-#	print('Current Path:', dirpath)
-# 	print('Directories:', dirnames)
-# 	print('Files:', filenames)
-# 	print()
+for dirpath, dirnames, filenames in os.walk('C:\\Users\\Anon\\Desktop\\'):
+	print('Current Path:', dirpath)
+	print('Directories:', dirnames)
+	print('Files:', filenames)
+	print()
 
 #  Say you have a file on the desktop, but don't know where it is:
 
