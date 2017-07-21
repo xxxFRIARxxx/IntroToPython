@@ -6,12 +6,12 @@ nums = [1, 5, 2, 4, 3]
 #  () = Tuple -		NOT Modifyable
 #  {} = Set -		Unordered, and HAVE NO DUPLICATES
 
-#  To find the first value of the 'courses' list above, you'd enter:  
+#  To find the first value of the 'courses' list above, you'd enter:
 # print(courses[0])
 
 #  Negative indexes [-1] start from the end of the list.  (CompSci, in this example)
 #  A range of values can be found with:  print(courses[0:2]).   FIRST INDEX IS INCLUSIVE, LAST IS EXCLUSIVE.
-#  You can also leave the 0 off of the [0:2].  
+#  You can also leave the 0 off of the [0:2].
 
 #  ---------------------SECTION 3A:  SLICING VALUES FROM LISTS/SETS/TUPLES-----------------
 
@@ -86,7 +86,7 @@ sample_url = 'http://google.com'
 
 #  HOW TO REMOVE FROM THE END OF A LIST AS IF IN A STACK OR QUEUE.  RETURNABLE VALUES:
 #  .pop
-   
+
 #popped = courses.pop()
 #courses.pop() #would remove 'CompSci' from the 'courses' list, but ALLOWS IT TO BE A RETURNED VALUE.
 
@@ -103,7 +103,7 @@ sample_url = 'http://google.com'
 #courses.sort()   sorts in alphabetical order, numbers in ascending.
 #nums.sort()      ascending (numbers)
 
-# SORTING YOUR LIST, DESCENDING: 
+# SORTING YOUR LIST, DESCENDING:
 # Yes, you can use the .reverse method on the list when they're sorted, but EASEIER:
 # THERES A REVERSE ARGUMENT TO THE SORT METHOD:
 #courses.sort(reverse=True)
@@ -111,7 +111,7 @@ sample_url = 'http://google.com'
 
 #------------------HOW TO SORT A LIST, WITHOUT ALTERING THE ORIGINAL:  sorted() function-----------------
 
-#sorted(courses)  
+#sorted(courses)
 
 #  returns a sorted version of the list in place.  To get the sorted list, you need to get a new variable
 #  and set it to the return value of the function, up top, like this:
@@ -132,7 +132,7 @@ sample_url = 'http://google.com'
 
 #--------------------------------FINDING THE INDEX OF A VALUE--------------------------------
 
-#  Finds the index number of a value in the list.  
+#  Finds the index number of a value in the list.
 #print(courses.index('CompSci'))
 
 #  If you try to search for a value that isn't in the list, you'll receive a VALUE ERROR.
@@ -143,17 +143,17 @@ sample_url = 'http://google.com'
 
 #-----------------------------------BRIEF INTRO TO FOR LOOPS---------------------------------
 
-for ABCDEF1234 in courses:
-	print(ABCDEF1234)
-#  
+# for ABCDEF1234 in courses:
+# 	print(ABCDEF1234)
+#
 #------------------------------FINDING THE INDEX NUMBER ALSO---------------------------------
 
 #  USE THE ENUMERATE FUNCTION.  ENUMERATE RETURNS 2 VALUES:  THE INDEX AND THE VALUE.
 
 # for index, course in enumerate(courses):
-# 	print(index, course)   
+# 	print(index, course)
 
-# RETURNS:  
+# RETURNS:
 # 0 History
 # 1 Math
 # 2 Physics
@@ -167,18 +167,18 @@ for ABCDEF1234 in courses:
 
 #--------------------------HOW TO TURN LISTS INTO A STRING-------------------------------
 
-  
+
 #                     CSV, or HYPEN SEPARATED VALUES
 #  We're going to use .JOIN METHOD to join the values of this list in the string.
 
-course_str = ' - '.join(courses)  
-#print(course_str)
+course_str = ' - '.join(courses)
+# print(course_str)
 
 #--------------------------HOW TO TURN STRINGS INTO A LIST-------------------------------
 
 
 new_list = course_str.split(' - ')
-#print(course_str)
+# print(course_str)
 #print(new_list)    #TURNS IT BACK INTO THE ORIGINAL LIST.  HOLY FUCK.  I GET IT NOW.
 
 #------------------------------------TUPLES--------------------------------------------------
@@ -203,7 +203,7 @@ list_1[0] = 'Art'
 #-------------------------------------------TUPLE EXAMPLE-----------------------------------------------
 
 #  If you want a list of values that you know will NOT CHANGE, use a TUPLE:
-tuple_1 = ('History', 'Math', 'Physics', 'CompScience')  
+tuple_1 = ('History', 'Math', 'Physics', 'CompScience')
 #NOTE THE ^PARENTHESIS INSTEAD OF THE BRACKETS FOR THE^ ARRAY ABOVE
 tuple_2 = tuple_1
 
